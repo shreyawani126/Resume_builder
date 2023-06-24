@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*  ----------------------------header css ---------------------------*/
+nav{
+  width: 100vw;
+  height: 70px;
+  color: white;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+  border-bottom: solid rgba(128, 128, 128, 0.4) 1px;
+
+}
+#logo i{
+  font-size: 30px;
+  margin: -5px 0px 0px -10px;
+  color: rgb(18, 18, 96);
+
+}
+
+#logo a{
+  text-decoration: none;
+  color: black;
+}
+#logo a h1{
+  display: inline-block;
+  padding-right: 10px;
+ font-size: 30px;
+}
+nav hr{
+ border: 1px solid grey;
+ width: 100vw;
+}
+#suggestion{
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 270px;
+  left: 480px;
+  background-color: rgba(240, 234, 234, 0.934);
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+
+}
+#suggestion ul{
+  list-style: none;
+}
+#suggestion ul li{
+  padding: 5px;
+  background-color: transparent;
+}
+
+#suggestion ul li:hover{
+  background-color: rgba(177, 177, 208, 0.589);
+  cursor: pointer;
+}
+#info{
+  margin: 40px 0px ;
+}
+ /* ----------------------------Home page CSS------------------------*/
+#home-page 
+{
+  margin:  auto;
+  padding:30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#content {
+  width: 50%;
+  margin-right: 50px;
+
+  margin-top: -50px;
+  padding: 40px 10px 0px 10px;
+ text-align: left;
+}
+
+#content p{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#content #create{
+  /* border-radius: 20px; */
+  width: auto;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+#image{
+  width: 50%;
+}
+#image img{
+  width: 500px;
+  height: 500px;
+}
+
+/* --------------------- input field pages: css --------------------*/
+.heading-page, .exp-page ,.edu-page,.skills-page{
+  width: 60%;
+  height: auto;
+  margin: 30px auto;
+  padding: 10px 20px;
+  
+}
+
+.heading-page h3, .exp-page h3 , .edu-page h3 ,.skills-page h3{
+  text-align: left;
+  font-weight: lighter;
+  margin-bottom: 40px;
+
+}
+.heading-info ,.exp-info , .edu-info,.skills-info{
+  width: 90%;
+  margin: 10px auto;
+  text-align: left;
+  
+}
+
+.skills-info input,.skills-info textarea{
+    width: 80%;
+    margin: 0px 70px;
+    
+}
+form
+{ 
+  padding:10px;
+  border: rgba(128, 128, 128, 0.507) solid 0.5px;
+}
+/* ----------------options------------- */
+#options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 200px;
+ 
+}
+
+
+.view-resume a{
+  text-align: center;
+  border: 1px rgba(11, 228, 26, 0.879) solid;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  width: auto;
+  height: 35px;
+  padding: 5px 10px;
+  
+}
+.view-resume a:hover{
+  background-color: rgba(11, 228, 26, 0.879);
+  
+}
+
+/* ---------------------Resume template---------- */
+
+.app{
+  width: 100vw;
+  height: 100vw;
+  
+}
+ .resume-wrapper{
+  width: 65%;
+  height: auto;
+  margin: 20px auto;
+  
+ }
+ #outlet{
+  width: 90%;
+  height: auto;
+ }
+ 
+ .body-header{
+    text-align: center;
+ }
+ #summary, #skills,.exp-body ,.edu-body{
+    text-align: justify;
+
+ }
+ 
+#resume-border{
+  width: 80%;
+  height: auto;
+
+} 
+.resume-wrapper hr{
+    border: 2px solid rgba(0, 0, 0, 0.984);
+    width: 100%;
+  }

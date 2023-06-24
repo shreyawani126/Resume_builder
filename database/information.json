@@ -1,0 +1,87 @@
+{
+  "information": [
+    {
+      "firstName": "FNAM",
+      "lastName": "LNAM",
+      "JobRole": "JROLE",
+      "profileSummury": "PSUMM",
+      "email": "MAIL",
+      "phone": "PHON",
+      "address": "ADDS",
+      "city": "CITY",
+      "country": "COUNT",
+      "zipCode": "ZIP",
+      "experiences": [
+        {
+          "id": 1,
+          "designation": "JOBTTL",
+          "companyName": "COMPY",
+          "jobCity": "JOBCITY",
+          "jobCountry": "JOCCOUNTRY",
+          "jobStart": "JOBSTART",
+          "jobEnd": "JOBEND",
+          "jobDescription": "JOBDES"
+        }
+      ],
+      "education": [
+        {
+          "id": 1,
+          "institute": "INSTITUTE",
+          "degree": "DEGREE",
+          "startYear": "SYEAR",
+          "endYear": "EYEAR",
+          "eduCity": "EDUCITY",
+          "eduCountry": "EDUCOUNTRY",
+          "otherActivities": "OTHERS"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "HTML"
+    },
+    {
+      "skill": "CSS"
+    },
+    {
+      "skill": "JAVA"
+    },
+    {
+      "skill": "Java Script"
+    },
+    {
+      "skill": "React-JS"
+    },
+    {
+      "skill": "Node-Js"
+    },
+    {
+      "skill": "Python"
+    },
+    {
+      "skill": "PHP"
+    },
+    {
+      "skill": "MySQL"
+    },
+    {
+      "skill": "MongoDB"
+    },
+    {
+      "skill": "Express-JS"
+    },
+    {
+      "skill": "Angular 2+"
+    },
+    {
+      "skill": "cloud-AWS"
+    },
+    {
+      "skill": "Git/Github"
+    },
+    {
+      "skill": "selenium testing"
+    }
+  ]
+}
